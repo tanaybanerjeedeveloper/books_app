@@ -4,7 +4,7 @@
 
 * Mobile architecture -  Riverpod Architecture
 * State Management - Riverpod
-* Public api - Google Books API
+* Api - Google Books API
 * Routing - GoRouter
 * features folder - all the features like homescreen, search, book listing are here
 * features -> presentation -> all UI and error handling is here
