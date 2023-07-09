@@ -1,4 +1,5 @@
 import 'package:book_app/src/common_widgets/book_list.dart';
+import 'package:book_app/src/features/searched_list/presentation/searched_list.dart';
 import 'package:book_app/src/routing/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -64,7 +65,16 @@ class HomeScreen extends StatelessWidget {
             //   ),
             // ),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SearchedList(
+                      text: searchText.text,
+                    ),
+                  ),
+                );
+              },
               child: Text('Search'),
               style: TextButton.styleFrom(
                 backgroundColor: Color(0xff03045E),

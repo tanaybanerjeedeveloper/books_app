@@ -6,14 +6,14 @@ class Book {
   final String publishDate;
   final String description;
   final String imgURL;
-  final String downloadLink;
+  //final String downloadLink;
   final String previewLink;
   final String pages;
 
   Book(
       {required this.author,
       required this.description,
-      required this.downloadLink,
+      //required this.downloadLink,
       required this.id,
       required this.imgURL,
       required this.previewLink,

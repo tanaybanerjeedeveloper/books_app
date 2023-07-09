@@ -22,9 +22,9 @@ class BookListRepository {
                 pages: item['volumeInfo']['pageCount'].toString(),
                 author: item['volumeInfo']['authors'][0],
                 description: item['volumeInfo']['description'],
-                downloadLink: item['accessInfo']['pdf']['isAvailable'] == true
-                    ? item['accessInfo']['pdf']['acsTokenLink']
-                    : '',
+                // downloadLink: item['accessInfo']['pdf']['isAvailable'] == true
+                //     ? item['accessInfo']['pdf']['acsTokenLink']
+                //     : '',
                 id: item['id'],
                 imgURL: item['volumeInfo']['imageLinks']['thumbnail'],
                 previewLink: item['volumeInfo']['previewLink'],
