@@ -291,15 +291,15 @@
     },
     {
       "name": "url_launcher_linux",
-      "rootUri": "file:///Users/tanaybanerjee/Documents/Flutterdev/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-3.0.5",
+      "rootUri": "file:///Users/tanaybanerjee/Documents/Flutterdev/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-2.0.3",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.12"
     },
     {
       "name": "url_launcher_macos",
-      "rootUri": "file:///Users/tanaybanerjee/Documents/Flutterdev/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-3.0.5",
+      "rootUri": "file:///Users/tanaybanerjee/Documents/Flutterdev/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-2.0.3",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.12"
     },
     {
       "name": "url_launcher_platform_interface",
@@ -315,9 +315,9 @@
     },
     {
       "name": "url_launcher_windows",
-      "rootUri": "file:///Users/tanaybanerjee/Documents/Flutterdev/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-3.0.7",
+      "rootUri": "file:///Users/tanaybanerjee/Documents/Flutterdev/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-2.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.12"
     },
     {
       "name": "vector_math",
@@ -344,7 +344,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-07-09T14:24:38.500060Z",
+  "generated": "2023-07-09T15:06:42.937361Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

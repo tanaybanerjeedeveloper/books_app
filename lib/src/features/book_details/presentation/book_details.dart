@@ -167,7 +167,11 @@ class BookDetailsScreen extends StatelessWidget {
           child: ElevatedButton(
             onPressed: () async {
               print('downloadLink: $douwnloadLink');
-              await launchUrl(Uri.parse(douwnloadLink));
+              await launch(douwnloadLink,
+                  forceSafariVC: true,
+                  forceWebView: true,
+                  enableJavaScript: true);
+              //await launchUrl(Uri.parse(douwnloadLink));
               // if (await canLaunchUrl(Uri.parse(douwnloadLink))) {
               //   await launchUrl(Uri.parse(
               //       'https://blog.logrocket.com/launching-urls-flutter-url_launcher/'));
