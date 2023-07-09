@@ -116,6 +116,44 @@ class HomeScreen extends StatelessWidget {
               height: mediaQuery.height * 0.2,
               child: BookList('thriller'),
             ),
+            SizedBox(
+              height: mediaQuery.height * 0.05,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                vertical: 0,
+                horizontal: 25.0,
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  const Text(
+                    'Fantasy',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      context.goNamed(AppRoute.mainBookList.name, queryParams: {
+                        'title': 'fantasy',
+                      });
+                    },
+                    icon: const Icon(Icons.arrow_forward),
+                  ),
+                ],
+              ),
+            ),
+            SizedBox(
+              height: mediaQuery.height * 0.02,
+            ),
+            SizedBox(
+              height: mediaQuery.height * 0.2,
+              child: BookList('fantasy'),
+            ),
+            SizedBox(
+              height: mediaQuery.height * 0.05,
+            ),
           ],
         ),
       ),
