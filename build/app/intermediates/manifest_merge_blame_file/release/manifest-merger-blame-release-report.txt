@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.book_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6    <!--
+7 <queries>
+8  <intent>
+9    <action android:name="android.intent.action.VIEW" />
+10    <data android:scheme="https" />
+11  </intent>
+12</queries>
+13    -->
+14    <uses-sdk
+15        android:minSdkVersion="16"
+15-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml
+16        android:targetSdkVersion="31" />
+16-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:3:6-67
+18-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:3:23-65
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/5350301dfb55dd253ec4908f7ef4c369/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.book_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/5350301dfb55dd253ec4908f7ef4c369/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/5350301dfb55dd253ec4908f7ef4c369/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.book_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/5350301dfb55dd253ec4908f7ef4c369/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/5350301dfb55dd253ec4908f7ef4c369/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+27        android:name="android.app.Application"
+27-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:6:9-42
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/5350301dfb55dd253ec4908f7ef4c369/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:7:9-43
+30        android:label="book_app"
+30-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:5:9-33
+31        android:networkSecurityConfig="@xml/network_security_config" >
+31-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:8:9-69
+32        <activity
+32-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:10:9-30:20
+33            android:name="com.example.book_app.MainActivity"
+33-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:11:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:15:13-163
+35            android:exported="true"
+35-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:12:13-36
+36            android:hardwareAccelerated="true"
+36-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:16:13-47
+37            android:launchMode="singleTop"
+37-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:13:13-43
+38            android:theme="@style/LaunchTheme"
+38-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:14:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:17:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:22:13-25:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:23:15-70
+49                android:resource="@style/NormalTheme" />
+49-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:24:15-52
+50
+51            <intent-filter>
+51-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:26:13-29:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:27:17-68
+52-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:27:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:28:17-76
+54-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:28:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:33:9-35:33
+62            android:name="flutterEmbedding"
+62-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:34:13-44
+63            android:value="2" />
+63-->/Users/tanaybanerjee/Desktop/books_app/android/app/src/main/AndroidManifest.xml:35:13-30
+64
+65        <provider
+65-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-20:20
+66            android:name="com.crazecoder.openfile.FileProvider"
+66-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+67            android:authorities="com.example.book_app.fileProvider.com.crazecoder.openfile"
+67-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-88
+68            android:exported="false"
+68-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+69            android:grantUriPermissions="true" >
+69-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+70            <meta-data
+70-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-19:53
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-67
+72                android:resource="@xml/filepaths" />
+72-->[:open_file] /Users/tanaybanerjee/Desktop/books_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-50
+73        </provider>
+74
+75        <activity
+75-->[:url_launcher_android] /Users/tanaybanerjee/Desktop/books_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+76            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+76-->[:url_launcher_android] /Users/tanaybanerjee/Desktop/books_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+77            android:exported="false"
+77-->[:url_launcher_android] /Users/tanaybanerjee/Desktop/books_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+78            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+78-->[:url_launcher_android] /Users/tanaybanerjee/Desktop/books_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0-beta04] /Users/tanaybanerjee/.gradle/caches/transforms-3/9e91c662af8148517c13d994fd342e7d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0-beta04] /Users/tanaybanerjee/.gradle/caches/transforms-3/9e91c662af8148517c13d994fd342e7d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0-beta04] /Users/tanaybanerjee/.gradle/caches/transforms-3/9e91c662af8148517c13d994fd342e7d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0-beta04] /Users/tanaybanerjee/.gradle/caches/transforms-3/9e91c662af8148517c13d994fd342e7d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0-beta04] /Users/tanaybanerjee/.gradle/caches/transforms-3/9e91c662af8148517c13d994fd342e7d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0-beta04] /Users/tanaybanerjee/.gradle/caches/transforms-3/9e91c662af8148517c13d994fd342e7d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+86
+87        <provider
+87-->[androidx.emoji2:emoji2:1.2.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/33d403e4a59db30b55fe94b098172eeb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.emoji2:emoji2:1.2.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/33d403e4a59db30b55fe94b098172eeb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+89            android:authorities="com.example.book_app.androidx-startup"
+89-->[androidx.emoji2:emoji2:1.2.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/33d403e4a59db30b55fe94b098172eeb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+90            android:exported="false" >
+90-->[androidx.emoji2:emoji2:1.2.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/33d403e4a59db30b55fe94b098172eeb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+91            <meta-data
+91-->[androidx.emoji2:emoji2:1.2.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/33d403e4a59db30b55fe94b098172eeb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+92-->[androidx.emoji2:emoji2:1.2.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/33d403e4a59db30b55fe94b098172eeb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+93                android:value="androidx.startup" />
+93-->[androidx.emoji2:emoji2:1.2.0] /Users/tanaybanerjee/.gradle/caches/transforms-3/33d403e4a59db30b55fe94b098172eeb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tanaybanerjee/.gradle/caches/transforms-3/db7a7d07956806dfa9cba507cc257440/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tanaybanerjee/.gradle/caches/transforms-3/db7a7d07956806dfa9cba507cc257440/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+96                android:value="androidx.startup" />
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tanaybanerjee/.gradle/caches/transforms-3/db7a7d07956806dfa9cba507cc257440/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+97        </provider>
+98    </application>
+99
+100</manifest>

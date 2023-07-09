@@ -1,3 +1,4 @@
+//book details screen--------------------
 import 'dart:io';
 
 import 'package:dio/dio.dart';
@@ -165,6 +166,9 @@ class BookDetailsScreen extends StatelessWidget {
         color: Colors.white,
         child: Center(
           child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Color(0xff03045E),
+            ),
             onPressed: () async {
               print('downloadLink: $douwnloadLink');
               await launch(douwnloadLink,
@@ -189,7 +193,7 @@ class BookDetailsScreen extends StatelessWidget {
               //       'depositphotos_35186549-stock-photo-sample-grunge-red-round-stamp.jpg.pdf',
               // );
             },
-            child: Text('VIEW BOOK'),
+            child: Text('GET BOOK'),
           ),
         ),
       ),

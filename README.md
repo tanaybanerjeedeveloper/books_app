@@ -1,16 +1,19 @@
-# book_app
+# BookStore
 
-A new Flutter project.
+## Online book store
 
-## Getting Started
+* Mobile architecture -  Riverpod Architecture
+* State Management - Riverpod
+* Public api - Google Books API
+* Routing - GoRouter
+* features folder - all the features like homescreen, search, book listing are here
+* features -> presentation -> all UI and error handling is here
+* features -> data  -> all repositories are here. Api calls are made here
+* features -> domain -> all model classes are here
+* error handling is done in the presentation folder.
+* common_widgets folder - all common widgets that are used across the app like error-message, book-list are here
+* routing folder - the routing logic is here
+* utils folder - the API Key is here
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
